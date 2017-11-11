@@ -16,7 +16,6 @@ function buildSvg(name) {
 		path.join(__dirname, '../dist/icons/' + name + '.svg'),
 		svg
 	);
-	console.log(name + '.svg saved');
 }
 
 Object.keys(punctuations).forEach(key => {
