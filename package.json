@@ -1,30 +1,36 @@
 {
-	"name": "progressive-punctuation-open",
-	"version": "0.0.0-semantically-released",
-	"description": "Punctuation Marks for the Open Web",
-	"main": "src/index.js",
-	"scripts": {
-		"test": "xo && ava",
-		"js": "webpack --progress --colors & webpack --config webpack-min.config.js",
-		"svg": "node scripts/build-svg",
-		"sprite": "node scripts/sprite",
-		"json": "node scripts/paths-json"
-	},
-	"keywords": [
-		"icons",
-		"iconssets",
-		"progressive",
-		"punctuation",
-		"punctuation",
-		"fonts",
-		"fontsets"
-	],
-	"author": "Arti Villa <artivillachandok@gmail.com> (https://angel.co/artivilla)",
-	"license": "MIT",
-	"devDependencies": {
-		"ava": "^0.22.0",
-		"camelcase": "^4.1.0",
-		"webpack": "^3.6.0",
-		"xo": "^0.18.2"
-	}
+  "name": "progressive-punctuation-open",
+  "version": "0.0.0-development",
+  "description": "Punctuation Marks for the Open Web",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "xo && ava",
+    "js": "webpack --progress --colors & webpack --config webpack-min.config.js",
+    "svg": "node scripts/build-svg",
+    "sprite": "node scripts/sprite",
+    "json": "node scripts/paths-json",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "keywords": [
+    "icons",
+    "iconssets",
+    "progressive",
+    "punctuation",
+    "punctuation",
+    "fonts",
+    "fontsets"
+  ],
+  "author": "Arti Villa <artivillachandok@gmail.com> (https://angel.co/artivilla)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "camelcase": "^4.1.0",
+    "webpack": "^3.6.0",
+    "xo": "^0.18.2",
+    "semantic-release": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artivilla/progressive-punctuation-open.git"
+  }
 }
