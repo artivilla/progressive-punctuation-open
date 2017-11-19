@@ -1,12 +1,10 @@
 
-var paths = require('./paths');
-var toString = require('./lib/to-string');
-var inject = require('./lib/inject');
+const paths = require('./src');
+const toString = require('./lib/to-string');
+const inject = require('./lib/inject');
 
 module.exports = {
-  paths: paths,
-  toString: toString,
-  inject: inject
+	paths,
+	toString,
+	inject
 };
-
-
