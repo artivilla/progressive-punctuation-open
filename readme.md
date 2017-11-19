@@ -4,9 +4,9 @@
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![CircleCI](https://circleci.com/gh/artivilla/progressive-punctuation-open.svg?style=svg)](https://circleci.com/gh/artivilla/progressive-punctuation-open)
 
-Progressive Punctuation is a movement focused on effective communication, a brainchild of Jeremy Ford's work -- an art director and multidisciplinary designer in New York City. You can learn more about this project at progressivepunctuation.com.
+Progressive Punctuation is a movement focused on effective communication, my friend Jeremy Ford's work -- an art director and multidisciplinary designer living in New York City. You can learn more about this project at his awwward winning site [here](http://progressivepunctuation.com/).
 
-By extension, Progressive Punctuation Open is a set of webfonts represented in his work available in several formats for the open web.
+By extension, Progressive Punctuation Open is a set of webfonts representing those marks available in several formats for the open web.
 
 ## Getting Started Guide
 
@@ -14,7 +14,6 @@ Download the source, or install via pkg managers:
 
 ```
 npm install progressive-punctuation-open
-yarn add progressive-punctuation-open
 ```
 
 ## Client-side Javascript Usage
@@ -34,10 +33,12 @@ Add the data-icon attribute with an icon name to an element.
 
 Pass a nodelist to the progressive-punctuation.inject() method to replace elements with SVG icons.
 
-```<script>
+```
+<script>
   var icons = document.querySelectorAll('.js-progressive-punctuation');
   progressive-punctuation.inject(icons);
-</script>```
+</script>
+```
 
 ## Node Usage
 
