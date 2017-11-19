@@ -25,9 +25,10 @@
   "devDependencies": {
     "ava": "^0.22.0",
     "camelcase": "^4.1.0",
+    "semantic-release": "^8.2.0",
+    "svg-inject": "^0.1.0",
     "webpack": "^3.6.0",
-    "xo": "^0.18.2",
-    "semantic-release": "^8.2.0"
+    "xo": "^0.18.2"
   },
   "repository": {
     "type": "git",
