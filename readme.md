@@ -2,7 +2,8 @@
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
-[![CircleCI](https://circleci.com/gh/artivilla/progressive-punctuation-open.svg?style=svg)](https://circleci.com/gh/artivilla/progressive-punctuation-open)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Build Status](https://travis-ci.org/artivilla/progressive-punctuation-open.svg?branch=master)](https://travis-ci.org/artivilla/progressive-punctuation-open)
 
 Progressive Punctuation is a movement focused on effective communication, my friend Jeremy Ford's work -- an art director and multidisciplinary designer living in New York City. You can learn more about this project at his awwward winning site [here](http://progressivepunctuation.com/).
 
