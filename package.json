@@ -4,7 +4,7 @@
 	"description": "Punctuation Marks for the Open Web",
 	"main": "src/index.js",
 	"scripts": {
-		"test": "xo",
+		"test": "xo && jest",
 		"js": "webpack --progress --colors & webpack --config webpack-min.config.js",
 		"svg": "node scripts/build-svg",
 		"sprite": "node scripts/sprite",
@@ -23,8 +23,12 @@
 	"author": "Arti Villa <artivillachandok@gmail.com> (https://angel.co/artivilla)",
 	"license": "MIT",
 	"devDependencies": {
-		"ava": "^0.22.0",
+		"@babel/core": "^7.0.0-beta.32",
+		"babel-jest": "^21.2.0",
+		"babel-loader": "^7.1.2",
+		"babel-preset-env": "^1.6.1",
 		"camelcase": "^4.1.0",
+		"jest": "^21.2.1",
 		"semantic-release": "^8.2.0",
 		"svg-inject": "^0.1.0",
 		"webpack": "^3.6.0",
@@ -33,5 +37,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/artivilla/progressive-punctuation-open.git"
-	}
+	},
+	"dependencies": {}
 }
