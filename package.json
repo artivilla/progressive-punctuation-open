@@ -1,9 +1,10 @@
 {
 	"name": "progressive-punctuation-open",
-	"version": "0.0.0-development",
+	"version": "0.0.0-semantically-released",
 	"description": "Punctuation Marks for the Open Web",
 	"main": "src/index.js",
 	"scripts": {
+		"commit": "git-cz",
 		"test": "xo && jest",
 		"js": "webpack --progress --colors & webpack --config webpack-min.config.js",
 		"svg": "node scripts/build-svg",
@@ -28,6 +29,8 @@
 		"babel-loader": "^7.1.2",
 		"babel-preset-env": "^1.6.1",
 		"camelcase": "^4.1.0",
+		"commitizen": "^2.9.6",
+		"cz-conventional-changelog": "^2.1.0",
 		"jest": "^21.2.1",
 		"semantic-release": "^8.2.0",
 		"svg-inject": "^0.1.0",
@@ -36,7 +39,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/artivilla/progressive-punctuation-open.git"
+		"url": "git+https://github.com/artivilla/progressive-punctuation-open.git"
 	},
-	"dependencies": {}
+	"bugs": {
+		"url": "https://github.com/artivilla/progressive-punctuation-open/issues"
+	},
+	"homepage": "https://github.com/artivilla/progressive-punctuation-open#readme",
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
 }
