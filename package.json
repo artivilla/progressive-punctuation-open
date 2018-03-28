@@ -28,7 +28,7 @@
 		"babel-jest": "^21.2.0",
 		"babel-loader": "^7.1.2",
 		"babel-preset-env": "^1.6.1",
-		"camelcase": "^4.1.0",
+		"camelcase": "^5.0.0",
 		"commitizen": "^2.9.6",
 		"cz-conventional-changelog": "^2.1.0",
 		"jest": "^21.2.1",
